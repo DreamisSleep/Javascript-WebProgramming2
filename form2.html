@@ -1,0 +1,79 @@
+<!doctype html>
+<meta charset="utf-8">
+<html><head><title>form Application </title></head>
+<body>
+	<h3>폼 연결하기</h3>
+
+	<form name="frm" method="post" action="">
+
+
+	<fieldset>
+		<legend>로그인 정보</legend>
+		아이디 : <input type="text" name="id" size=20><br>
+		이메일 : <input type="text" name="email" size=20><br>
+		패스워드 : <input type="password" maxlength=6  name="pw" size=20> <br>
+	</fieldset>
+
+
+
+	<fieldset>
+		<legend>개인정보</legend>
+		<label for name="이름">이름 :</label>
+		<input type="text" name="name" size=20><br>
+		<label for name="생년월일">생년월일</label>
+		<input type="texxt" name="birth" size=20><br>
+	</fieldset>
+
+	<fieldset>
+		<legend>신상정보</legend>
+		<label for name="성별">성별</label>
+		<input type="radio" name="sex" value="여" checked>여성
+		<input type="radio" name="sex" value="남">남자<br>
+		<labe for name="hobby">취미
+		<input type="checkbox" name="hobby" value="reading" checked>독서
+		<input type="checkbox" name="hobby" value="swimming">수영
+		<input type="checkbox" name="hobby" value="movie">영화감상
+		<input type="checkbox" nmae="hobby" value="traveling">여행
+	</fieldset>
+
+	<fieldset>
+		<legend>소속</legend>
+		<select name="dept" size=5>
+			<option selected="">게임학과</option>
+			<option>컴퓨터공학과</option>
+			<option>정보통신학과</option>
+			<option>융합소프트웨어학과</option>
+			<option>국문과</option>
+		</select>
+	</fieldset>
+
+	<fieldset>
+		<legend>장점</legend>
+		<label for name="취미">취미</label>
+		<input type="text" name="hobby" list="hbylist"><br>
+		<datalist id="hbylist">
+			<option value="낚시"></option>
+			<option value="등산"></option>
+			<option value="서핑"></option>
+			<option value="하이킹"></option>
+		</datalist>
+	</fieldset>
+<input type="submit" value="가입하기">&nbsp;<input type="reset" value="취소">
+<button type="submit">가입하기</button>&nbsp; <button type="reset">취소</button>
+<form>
+
+
+
+
+
+
+
+
+
+
+z
+
+
+
+</body>
+</html>
